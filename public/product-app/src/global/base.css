@@ -1,0 +1,35 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* color variable*/
+:root {
+  --clr-primary: #ee6352;
+  --clr-dark: #333;
+  --clr-neutral: #ddd;
+  --clr-light: #fff;
+  --clr-light-green: #3acec2;
+  --clr-gray: #767676;
+  --clr-black: #000000;
+  --clr-light-brown: #e7e3de;
+  --clr-brown: #85745b;
+  font-family: "Noto Sans TC";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  /* Let the element which is out of the window be hidden */
+  overflow-x: hidden;
+}
